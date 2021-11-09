@@ -18,6 +18,7 @@
 		A26192CA271DFF5100E515EF /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26192C9271DFF5100E515EF /* Item.swift */; };
 		A26192CF271E007A00E515EF /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26192CE271E007A00E515EF /* ChatViewController.swift */; };
 		A26B128827204BD6009CA011 /* TextFieldEffects in Frameworks */ = {isa = PBXBuildFile; productRef = A26B128727204BD6009CA011 /* TextFieldEffects */; };
+		A29740C7273AAA0F004CA9CB /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29740C6273AAA0F004CA9CB /* AddItemViewController.swift */; };
 		A2A6A3AD271DC39E0082BBA1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A2A6A3AC271DC39E0082BBA1 /* GoogleService-Info.plist */; };
 		A2A6A3BA271DC5420082BBA1 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A6A3B9271DC5420082BBA1 /* RegisterViewController.swift */; };
 		A2BC6B76271E3356002DB840 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = A2BC6B75271E3356002DB840 /* FirebaseAuth */; };
@@ -59,6 +60,7 @@
 		A21164FE25F641A3005810F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A26192C9271DFF5100E515EF /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		A26192CE271E007A00E515EF /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		A29740C6273AAA0F004CA9CB /* AddItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
 		A2A6A3AC271DC39E0082BBA1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A2A6A3B9271DC5420082BBA1 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		A2D612752721089300EF9472 /* ItemViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewCell.swift; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 				A21164E525F641A3005810F1 /* LaunchScreen.storyboard */,
 				A21164E825F641A3005810F1 /* Info.plist */,
 				A2A6A3AC271DC39E0082BBA1 /* GoogleService-Info.plist */,
+				A29740C6273AAA0F004CA9CB /* AddItemViewController.swift */,
 			);
 			path = TestProd;
 			sourceTree = "<group>";
@@ -302,6 +305,7 @@
 				A21164DB25F641A2005810F1 /* AppDelegate.swift in Sources */,
 				A26192CA271DFF5100E515EF /* Item.swift in Sources */,
 				A21164DD25F641A2005810F1 /* SceneDelegate.swift in Sources */,
+				A29740C7273AAA0F004CA9CB /* AddItemViewController.swift in Sources */,
 				A26192CF271E007A00E515EF /* ChatViewController.swift in Sources */,
 				A2A6A3BA271DC5420082BBA1 /* RegisterViewController.swift in Sources */,
 			);
