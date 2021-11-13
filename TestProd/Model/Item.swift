@@ -1,8 +1,8 @@
 //
-//  Message.swift
+//  Item.swift
 //  TestProd
 //
-//  A class that models a receivable message, displayed upon logging into our
+//  A class that models an Item, displayed upon logging into our
 //  application.
 //  Created by Chris Rinaldi on 10/18/21.
 //
@@ -14,15 +14,17 @@ class Item {
     
     //MARK: Properties
     var name: String = "";
-    var value: Float = 0.0;
+    var description: String = "";
+    var value: String = "0.0";
     var addDate: String = "";
     var id: Int = 0;
     
     //MARK: Init
-    init(withName: String, value: Float, date: String) {
+    init(withName: String, description: String, value: String, date: String) {
         self.name = withName;
         self.value = value;
         self.addDate = date;
+        self.description = description;
     }
     
 }

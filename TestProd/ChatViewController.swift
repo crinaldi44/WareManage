@@ -46,7 +46,7 @@ class ChatViewController: UIViewController, UITableViewDelegate, UITableViewData
         
         //Customize the cell.
         cell.nameLabel?.text = self.itemsContainer[indexPath.row].name
-        cell.descriptionLabel?.text = "This is a test description of the item."
+        cell.descriptionLabel?.text = self.itemsContainer[indexPath.row].description
         
         //Return the cell.
         return cell
@@ -67,11 +67,13 @@ class ChatViewController: UIViewController, UITableViewDelegate, UITableViewData
                 data.documentChanges.forEach { difference in
                     if (difference.type == .added) {
                         
-                        let name: String = difference.document.data()["name"] as! String, value: Float = difference.document.data()["value"] as! Float,
+                        let name: String = difference.document.data()["name"] as! String,
+                            description: String = difference.document.data()["description"] as! String,
+                            value: String = difference.document.data()["value"] as! String,
                             date: String = difference.document.data()["date"] as! String,
                             id: Int = difference.document.data()["id"] as! Int;
                         
-                        let item: Item = Item(withName: name, value: value, date: date)
+                        let item: Item = Item(withName: name, description: description, value: value, date: date)
                         self.itemsContainer.append(item)
                         print("New chat: \(difference.document.data())")
                     }

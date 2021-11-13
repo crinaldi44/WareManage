@@ -381,7 +381,7 @@
                                     <color key="titleColor" systemColor="labelColor"/>
                                 </state>
                                 <connections>
-                                    <action selector="handleRegistration:" destination="7wC-Go-acO" eventType="touchUpInside" id="5SG-Mr-Gcv"/>
+                                    <action selector="didPressAddItemWith_semder:" destination="wXR-rx-nq9" eventType="touchUpInside" id="Red-hg-dgl"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -389,6 +389,11 @@
                         <color key="backgroundColor" systemColor="systemGray6Color"/>
                     </view>
                     <navigationItem key="navigationItem" id="7ho-cU-Peb"/>
+                    <connections>
+                        <outlet property="itemDescriptionField" destination="IrE-cc-T0c" id="Avt-j0-N0y"/>
+                        <outlet property="itemInputField" destination="u3t-0v-R7o" id="bFc-ib-Yrc"/>
+                        <outlet property="itemValueField" destination="54T-vy-gwn" id="CKK-wp-YZ4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="id0-iz-XJ5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
