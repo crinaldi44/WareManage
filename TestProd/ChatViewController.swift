@@ -36,23 +36,6 @@ class ChatViewController: UIViewController, UITableViewDelegate, UITableViewData
     }
     
     @IBAction func handleSend(_ sender: Any) {
-//        let item = messageInputField!.text
-//        // Add a new document with a generated ID
-//        var ref: DocumentReference? = nil
-//        ref = db.collection("inventory-log").addDocument(data: [
-//            "name": item,
-//            "id": 0,
-//            "value": 0.0,
-//            "date": "today",
-//            "sender": Auth.auth().currentUser?.email,
-//        ]) { err in
-//            if let err = err {
-//                print("Error adding document: \(err)")
-//            } else {
-//                print("Document added with ID: \(ref!.documentID)")
-//                self.messageInputField.text = ""
-//            }
-//        }
         self.performSegue(withIdentifier: "showAddView", sender: self);
     }
     
